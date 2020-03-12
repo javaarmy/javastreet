@@ -1,4 +1,8 @@
 tasks:
-  - init: sdk install java 14.ea.36-open 13.0.2.j9-adpt 8.0.242-open
+  - init: sdk offline enable
+          sdk install java 14.ea.36-open 
+          sdk install java 13.0.2.j9-adpt 
+          sdk install java 8.0.242-open
+          sdk offline disable
     command: echo "Replace me with omething that should run on every start, or just
       remove me entirely."

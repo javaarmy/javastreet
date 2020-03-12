@@ -1,0 +1,4 @@
+tasks:
+  - init: sdk install java 14.ea.36-open 13.0.2.j9-adpt 8.0.242-open
+    command: echo "Replace me with omething that should run on every start, or just
+      remove me entirely."

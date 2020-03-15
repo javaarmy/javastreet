@@ -3,5 +3,5 @@ tasks:
           echo 'n' | sdk install java 13.0.2.j9-adpt &&
           echo 'n' | sdk install java 8.0.242-open  &&
           echo 'n' | sdk install java 9.0.4-open &&
-          sdk default 8.0.242-open && sdk use 8.0.242-open
+          sdk default java 8.0.242-open && sdk use java 8.0.242-open
      

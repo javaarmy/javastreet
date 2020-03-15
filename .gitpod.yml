@@ -1,7 +1,6 @@
 tasks:
-  - init: echo 'n' | sdk install java 14.ea.36-open &&
+  - command: echo 'n' | sdk install java 14.ea.36-open &&
           echo 'n' | sdk install java 13.0.2.j9-adpt &&
           echo 'n' | sdk install java 8.0.242-open  &&
           sdk use java 14.ea.36-open
-    command: echo "Replace me with omething that should run on every start, or just
-      remove me entirely."
+     

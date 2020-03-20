@@ -1,5 +1,5 @@
 tasks:
-  - command: echo 'n' | sdk install java 14.ea.36-open &&
+  - command: echo 'n' | sdk install java 14.0.0-open &&
           echo 'n' | sdk install java 13.0.2.j9-adpt &&
           echo 'n' | sdk install java 8.0.242-open  &&
           echo 'n' | sdk install java 9.0.4-open &&

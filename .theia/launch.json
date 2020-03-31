@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LocalVariableTypeInference",
+            "request": "launch",
+            "mainClass": "java10.LocalVariableTypeInference",
+            "projectName": "Java10"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LambdaExpression",
             "request": "launch",
             "mainClass": "java8.LambdaExpression",

@@ -17,6 +17,6 @@ package java8;
 public class InterfaceDefaultAndStatic{
 
     public static void main(String... args) {
-        Iterable
+      //  Iterable
     }
 }

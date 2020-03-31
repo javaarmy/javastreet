@@ -1,20 +1,16 @@
 package java10;
 
-import jdk.vm.ci.meta.Local;
+import java.util.ArrayList;
 
 /**
- * How it is in other Lang's
- * var x = expr only (like C#)
-   var, plus val for immutable locals (like Scala, Kotlin)
-   var, plus let for immutable locals (like Swift)
-   auto x = expr (like C++)
-   def x = expr (like Groovy)
-   x := expr (like Go)
- * what we dont do?
- *  
+ * How it is in other Lang's var x = expr only (like C#) var, plus val for
+ * immutable locals (like Scala, Kotlin) var, plus let for immutable locals
+ * (like Swift) auto x = expr (like C++) def x = expr (like Groovy) x := expr
+ * (like Go) what we dont do?
+ * 
  */
 
-public class LocalvariableTypeInference{
+public class LocalVariableTypeInference{
 
     /**
      * ##Where we can use:

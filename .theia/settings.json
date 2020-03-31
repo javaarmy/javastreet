@@ -1,0 +1,23 @@
+{
+    "java.dependency.packagePresentation": "flat",
+    "editor.autoSave": "on",
+    "java.configuration.runtimes": [
+  {
+    "name": "JavaSE-1.8",
+    "path": "/home/gitpod/.sdkman/candidates/java/8.0.242-open"
+  },
+  {
+      "name":"JavaSE-9",
+      "path": "/home/gitpod/.sdkman/candidates/java/9.0.4-open"
+  },
+  {
+    "name": "JavaSE-11",
+    "path": "/home/gitpod/.sdkman/candidates/java/11.0.5.fx-zulu",
+   },
+   {
+    "name": "JavaSE-13",
+    "path": "/home/gitpod/.sdkman/candidates/java/13.0.2.j9-adpt"
+   }
+],
+"java.format.settings.url": "eclipse-formatter.xml```"
+}

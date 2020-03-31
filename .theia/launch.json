@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LambdaExpression",
+            "request": "launch",
+            "mainClass": "java8.LambdaExpression",
+            "projectName": "Java8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Streams",
+            "request": "launch",
+            "mainClass": "java9.Streams",
+            "projectName": "Java9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InterfacePrivateMethods",
+            "request": "launch",
+            "mainClass": "java9.InterfacePrivateMethods",
+            "projectName": "Java9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CompactString",
+            "request": "launch",
+            "mainClass": "java9.CompactString",
+            "projectName": "Java9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "app.App"
+        }
+    ]
+}

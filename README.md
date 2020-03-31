@@ -10,6 +10,7 @@
     >> 5. Stream API.
     >> 6. Optional
     >> 7. Method Reference
+    >> 8. CompletableFuture
 >> ---
 > ## Java 9
 >---

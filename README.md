@@ -28,7 +28,7 @@
 >> ---
 > # Java 11
     >> 1. Local Variable Type Syntac for Lambda
-    >> 2. String API improvements
+    >> 2. String API improvements(repeat, isBlank, strip, lines)
     >> 3. New HTTP Client API
 >> ---
 > ## Java 12

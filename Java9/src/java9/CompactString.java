@@ -8,7 +8,8 @@ public class CompactString {
     public static void main(String... args) {
         
         long startTime = System.currentTimeMillis();
-
+        String str = null;
+        str.length();
          List<String> strings = IntStream.rangeClosed(1, 10_000_000)
                                          .mapToObj(Integer::toString).collect(toList());
 

@@ -1,0 +1,29 @@
+{
+	"name": "Java 24 Development",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+	"features": {
+	  "ghcr.io/devcontainers/features/java:1": {
+		"version": "24",
+		"jdkDistro": "oracle",
+		"installMaven": true,
+		"installGradle": true
+	  },
+	  "ghcr.io/devcontainers/features/docker-in-docker:2": {
+		"version": "latest",
+		"moby": true
+	  },
+	  "ghcr.io/devcontainers/features/git:1": {},
+	  "ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "vscjava.vscode-java-pack",
+		  "ms-azuretools.vscode-docker"
+		]
+	  }
+	},
+	"forwardPorts": [],
+	"postCreateCommand": "echo 'Java 24 Dev Container Ready!'",
+	"remoteUser": "vscode"
+  }
